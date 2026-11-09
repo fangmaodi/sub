@@ -3326,7 +3326,7 @@ proxies:
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   tls: false
   network: ws
-  servername: uae.unixzone.us
+  servername: ''
 - name: '%F0%9F%87%A6%F0%9F%87%B1%5Bwww.v2nodes.com%5D%20vless-AL-1...'
   type: vless
   server: 15b171g.nl7.h1clayd.click
@@ -3343,6 +3343,14 @@ proxies:
   tls: true
   network: tcp
   servername: at1.japancase.site
+- name: '%F0%9F%87%A6%F0%9F%87%B9%20%E5%A5%A5%E5%9C%B0%E5%88%A9%20%7C%20AUT%20%231'
+  type: vless
+  server: 193.219.97.198
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  network: ws
+  servername: fs.qicai99.com
 - name: '%F0%9F%87%A7%F0%9F%87%BE%5Bwww.v2nodes.com%5D%20vless-BY-1...'
   type: vless
   server: 15d7fft.nl11.h1clayd.click
@@ -3375,14 +3383,14 @@ proxies:
   tls: false
   network: ws
   servername: ''
-- name: '%F0%9F%87%A8%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-CA-1...'
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%20%2312'
   type: vless
-  server: 172.64.150.248
+  server: 172.67.74.177
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  tls: false
-  network: tcp
-  servername: ''
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  network: ws
+  servername: fs.qicai99.com
 - name: '%F0%9F%87%A8%F0%9F%87%A6%5Bwww.v2nodes.com%5D%20vless-CA-1...%20%231'
   type: vless
   server: 199.181.197.99
@@ -3457,6 +3465,14 @@ proxies:
   servername: udemy.com
 - name: '%F0%9F%87%A9%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-DE-1...'
   type: vless
+  server: music.3apes.online
+  port: 443
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+  tls: true
+  network: tcp
+  servername: music.3apes.online
+- name: '%F0%9F%87%A9%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-DE-1...%20%231'
+  type: vless
   server: 100497t.de18.h1clayd.click
   port: 443
   uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
@@ -3471,7 +3487,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.bing.com
-- name: '%F0%9F%87%A9%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-DE-1...%20%232'
+- name: '%F0%9F%87%A9%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-DE-1...%20%233'
   type: vless
   server: 5.83.129.236
   port: 443
@@ -3479,14 +3495,6 @@ proxies:
   tls: true
   network: grpc
   servername: host-de-upscale.cdn.cachefleet.com
-- name: '%F0%9F%87%A9%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-DE-1...%20%234'
-  type: vless
-  server: 5.230.216.85
-  port: 443
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
-  tls: true
-  network: tcp
-  servername: files.porsche.com
 - name: '%F0%9F%87%A9%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-DE-1...%20%235'
   type: vless
   server: 45.129.242.56
@@ -3519,7 +3527,7 @@ proxies:
   tls: true
   network: grpc
   servername: github.com
-- name: '%F0%9F%87%AA%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-EE-1...%20%231'
+- name: '%F0%9F%87%AA%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-EE-1...%20%233'
   type: vless
   server: ee.subv.ru
   port: 443
@@ -3527,31 +3535,7 @@ proxies:
   tls: true
   network: tcp
   servername: dvizhok.su
-- name: '%F0%9F%87%AA%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-EE-1...%20%232'
-  type: vless
-  server: 45.86.60.190
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  tls: true
-  network: tcp
-  servername: ee2.japancase.site
-- name: '%F0%9F%87%AA%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-EE-1...%20%233'
-  type: vless
-  server: 31.77.236.114
-  port: 443
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
-  tls: true
-  network: tcp
-  servername: files.porsche.com
 - name: '%F0%9F%87%AA%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-EE-1...%20%234'
-  type: vless
-  server: ee.frgcdn.xyz
-  port: 443
-  uuid: 43a26f1a-99b7-4b17-98c7-b836fb466999
-  tls: true
-  network: tcp
-  servername: ee.frgcdn.xyz
-- name: '%F0%9F%87%AA%F0%9F%87%AA%5Bwww.v2nodes.com%5D%20vless-EE-1...%20%235'
   type: vless
   server: 45.86.60.174
   port: 16443
@@ -3593,21 +3577,13 @@ proxies:
   servername: s3.storage.selcloud.ru
 - name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%233'
   type: vless
-  server: 84.38.184.87
-  port: 2089
-  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
-  tls: true
-  network: grpc
-  servername: s3.storage.selcloud.ru
-- name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%234'
-  type: vless
   server: 217.144.188.185
   port: 443
   uuid: 8d954cbe-7ca9-402d-bfaf-aca6c92c04c3
   tls: true
   network: tcp
   servername: www.nordea.fi
-- name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%235'
+- name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%234'
   type: vless
   server: 45.38.143.210
   port: 30584
@@ -3615,7 +3591,7 @@ proxies:
   tls: true
   network: tcp
   servername: m.vk.com
-- name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%236'
+- name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%235'
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -3623,7 +3599,15 @@ proxies:
   tls: false
   network: ws
   servername: 45.144.234.157
-- name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%237'
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%20%2311'
+  type: vless
+  server: 138.124.49.108
+  port: 8443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%87%AB%F0%9F%87%AE%5Bwww.v2nodes.com%5D%20vless-FI-1...%20%238'
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -3631,15 +3615,15 @@ proxies:
   tls: true
   network: tcp
   servername: www.cloudflare.com
-- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...'
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%20%232'
   type: vless
-  server: 103.82.101.94
+  server: 138.124.124.157
   port: 443
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   tls: true
-  network: tcp
-  servername: www.porsche.com
-- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%231'
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...'
   type: vless
   server: w.geogame.ir
   port: 2053
@@ -3647,7 +3631,7 @@ proxies:
   tls: true
   network: tcp
   servername: w.geogame.ir
-- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%232'
+- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%231'
   type: vless
   server: 145.223.68.58
   port: 443
@@ -3655,15 +3639,15 @@ proxies:
   tls: true
   network: tcp
   servername: www.cloudflare.com
-- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%233'
+- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%232'
   type: vless
   server: 138.124.70.41
   port: 14430
   uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
   tls: false
   network: ws
-  servername: ''
-- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%234'
+  servername: 138.124.70.41
+- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%233'
   type: vless
   server: 152.228.139.33
   port: 51671
@@ -3671,7 +3655,7 @@ proxies:
   tls: true
   network: grpc
   servername: www.sony.com
-- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%235'
+- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%234'
   type: vless
   server: 161.97.160.224
   port: 443
@@ -3679,7 +3663,7 @@ proxies:
   tls: true
   network: tcp
   servername: passport.yandex.ru
-- name: '%F0%9F%8F%B3%5Bwww.v2nodes.com%5D%20vless-'
+- name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%235'
   type: vless
   server: 51.77.217.70
   port: 2053
@@ -3697,7 +3681,7 @@ proxies:
   servername: fuck.rkn
 - name: '%F0%9F%87%AB%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-FR-1...%20%237'
   type: vless
-  server: 152.228.162.19
+  server: ov-france1.09vpn.com
   port: 80
   uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
   tls: false
@@ -3753,13 +3737,21 @@ proxies:
   servername: yingguo.rymaker.cn
 - name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%232'
   type: vless
+  server: 130.12.242.106
+  port: 443
+  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+  tls: true
+  network: tcp
+  servername: deepl.com
+- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%233'
+  type: vless
   server: 51.89.194.151
   port: 2053
   uuid: 8e790f25-1d71-4601-9fb0-d503931dcfca
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%233'
+- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%234'
   type: vless
   server: node-uk.connectsuite.org
   port: 8443
@@ -3767,7 +3759,7 @@ proxies:
   tls: true
   network: tcp
   servername: node-uk.connectsuite.org
-- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%234'
+- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%235'
   type: vless
   server: 83.147.18.3
   port: 443
@@ -3775,7 +3767,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.cloudflare.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%235'
+- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%236'
   type: vless
   server: 46.250.240.80
   port: 2053
@@ -3783,7 +3775,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.cloudflare.com
-- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%236'
+- name: '%F0%9F%87%AC%F0%9F%87%A7%5Bwww.v2nodes.com%5D%20vless-GB-1...%20%237'
   type: vless
   server: 46.250.250.149
   port: 2053
@@ -3799,23 +3791,23 @@ proxies:
   tls: true
   network: tcp
   servername: www.cloudflare.com
-- name: '%F0%9F%87%AD%F0%9F%87%B0%5Bwww.v2nodes.com%5D%20vless-HK-1...'
+- name: '%F0%9F%87%AC%F0%9F%87%B7%20%E5%B8%8C%E8%85%8A%20%7C%20GRC%20%231'
   type: vless
-  server: 209.33.160.122
-  port: 39098
-  uuid: 7852e4df-db54-4f75-a35e-3b8fbe89e56d
-  tls: false
-  network: tcp
-  servername: ''
-- name: '%F0%9F%87%AD%F0%9F%87%B0%5Bwww.v2nodes.com%5D%20vless-HK-1...%20%231'
-  type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  server: 85.90.197.159
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   tls: true
-  network: tcp
-  servername: hk010.zestapp778.com
-- name: '%F0%9F%87%AD%F0%9F%87%B0%5Bwww.v2nodes.com%5D%20vless-HK-1...%20%232'
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%87%AC%F0%9F%87%B7%20%E5%B8%8C%E8%85%8A%20%7C%20GRC%20%232'
+  type: vless
+  server: 85.90.197.158
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%87%AD%F0%9F%87%B0%5Bwww.v2nodes.com%5D%20vless-HK-1...'
   type: vless
   server: hk3n.wxgqlfx.vip
   port: 35193
@@ -3823,14 +3815,22 @@ proxies:
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%AD%F0%9F%87%B0%5Bwww.v2nodes.com%5D%20vless-HK-1...%20%233'
+- name: '%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%20%231'
   type: vless
-  server: 188.114.98.0
+  server: 2.26.201.194
   port: 443
-  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-  tls: false
-  network: tcp
-  servername: ''
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  network: ws
+  servername: fs.qicai99.com
+- name: '%F0%9F%87%AD%F0%9F%87%BA%20%E5%8C%88%E7%89%99%E5%88%A9%20%7C%20HUN%20%231'
+  type: vless
+  server: 38.180.225.247
+  port: 2053
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  network: ws
+  servername: fs.qicai99.com
 - name: '%F0%9F%87%AE%F0%9F%87%B1%5Bwww.v2nodes.com%5D%20vless-IL-1...'
   type: vless
   server: 64.177.66.9
@@ -3857,13 +3857,21 @@ proxies:
   servername: 13.140.56.100
 - name: '%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%232'
   type: vless
+  server: 5.253.42.164
+  port: 40443
+  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
+  tls: true
+  network: tcp
+  servername: deepl.com
+- name: '%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20vless-IN-1...%20%233'
+  type: vless
   server: 194.61.31.126
   port: 2053
   uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%8F%B3%5Bwww.v2nodes.com%5D%20vless-%20%232'
+- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...'
   type: vless
   server: 198.16.113.218
   port: 8443
@@ -3871,7 +3879,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%8F%B3%5Bwww.v2nodes.com%5D%20vless-%20%233'
+- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...%20%231'
   type: vless
   server: tunell2027.crackerbinam.org
   port: 48312
@@ -3879,7 +3887,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.cloudflare.com
-- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...'
+- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...%20%232'
   type: vless
   server: 198.16.113.222
   port: 8443
@@ -3887,7 +3895,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...%20%231'
+- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...%20%233'
   type: vless
   server: 198.16.113.220
   port: 8443
@@ -3895,7 +3903,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...%20%232'
+- name: '%F0%9F%87%AE%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-IR-1...%20%234'
   type: vless
   server: 198.16.113.221
   port: 8443
@@ -3903,15 +3911,15 @@ proxies:
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%AE%F0%9F%87%B9%5Bwww.v2nodes.com%5D%20vless-IT-1...%20%231'
+- name: '%F0%9F%87%AE%F0%9F%87%B8%5Bwww.v2nodes.com%5D%20vless-IS-1...'
   type: vless
-  server: 91.201.67.245
+  server: 191.44.112.170
   port: 443
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+  uuid: 46d221fa-e9b4-748c-4eae-019a88e42991
   tls: true
-  network: tcp
-  servername: files.porsche.com
-- name: '%F0%9F%87%AE%F0%9F%87%B9%5Bwww.v2nodes.com%5D%20vless-IT-1...%20%232'
+  network: ws
+  servername: orbylume.my.to
+- name: '%F0%9F%87%AE%F0%9F%87%B9%5Bwww.v2nodes.com%5D%20vless-IT-1...%20%231'
   type: vless
   server: 82.118.16.187
   port: 443
@@ -3919,7 +3927,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.cloudflare.com
-- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%236'
+- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%237'
   type: vless
   server: 207.148.115.152
   port: 443
@@ -3935,6 +3943,14 @@ proxies:
   tls: true
   network: tcp
   servername: fuji.etherhub.cc
+- name: '%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%20%2310'
+  type: vless
+  server: 109.120.134.181
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  network: ws
+  servername: fs.qicai99.com
 - name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%232'
   type: vless
   server: 142.91.108.25
@@ -3943,7 +3959,7 @@ proxies:
   tls: false
   network: tcp
   servername: ''
-- name: '%F0%9F%8F%B3%5Bwww.v2nodes.com%5D%20vless-%20%234'
+- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%233'
   type: vless
   server: 168.107.36.135
   port: 443
@@ -3951,7 +3967,7 @@ proxies:
   tls: true
   network: ws
   servername: jp3.yohototo.top
-- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%233'
+- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%234'
   type: vless
   server: 103.75.118.228
   port: 11452
@@ -3959,7 +3975,7 @@ proxies:
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%234'
+- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%235'
   type: vless
   server: 3.114.220.22
   port: 10583
@@ -3967,14 +3983,22 @@ proxies:
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%235'
+- name: '%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20vless-JP-1...%20%236'
   type: vless
   server: 152.69.195.67
   port: 47878
   uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
   tls: false
   network: tcp
-  servername: 152.69.195.67
+  servername: ''
+- name: '%F0%9F%87%B8%F0%9F%87%AC%5Bwww.v2nodes.com%5D%20vless-SG'
+  type: vless
+  server: sg.fasti.win
+  port: 443
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  tls: true
+  network: tcp
+  servername: sg.fasti.win
 - name: '%F0%9F%87%B0%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-KR-1...'
   type: vless
   server: 43.108.85.54
@@ -4001,36 +4025,12 @@ proxies:
   servername: gateway.icloud.com
 - name: '%F0%9F%87%B0%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-KR-1...%20%233'
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
-  tls: true
-  network: tcp
-  servername: www.cloudflare.com
-- name: '%F0%9F%87%B0%F0%9F%87%B7%5Bwww.v2nodes.com%5D%20vless-KR-1...%20%234'
-  type: vless
   server: 3.39.4.109
-  port: 13672
+  port: 18967
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   tls: true
   network: tcp
   servername: www.apple.com
-- name: '%F0%9F%87%B0%F0%9F%87%BF%5Bwww.v2nodes.com%5D%20vless-KZ-1...'
-  type: vless
-  server: 109.248.170.119
-  port: 13447
-  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
-  tls: true
-  network: tcp
-  servername: yahoo.com
-- name: '%F0%9F%87%B1%F0%9F%87%B0%5Bwww.v2nodes.com%5D%20vless-LK-6...'
-  type: vless
-  server: news.zoom.us
-  port: 2087
-  uuid: 0ef68b97-f878-4cea-b756-c56ea3632851
-  tls: true
-  network: ws
-  servername: free.vkehi.store
 proxy-groups:
 - name: PROXY
   type: select
