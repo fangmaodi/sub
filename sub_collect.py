@@ -6,10 +6,15 @@ import urllib.request
 import yaml
 
 SOURCES = [
+    "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/top.txt",
+    "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt",
     "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt",
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
     "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
 ]
+
+MAX_PROXIES = 500
+PER_SOURCE_CAP = 200
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -119,35 +124,42 @@ def parse_ss(link):
         return None
     return None
 
+def parse_node(link):
+    if link.startswith("vmess://"):
+        return parse_vmess(link)
+    if link.startswith("vless://"):
+        return parse_vless(link)
+    if link.startswith("trojan://"):
+        return parse_trojan(link)
+    if link.startswith("ss://"):
+        return parse_ss(link)
+    return None
+
 def main():
-    all_links = []
+    seen = set()
+    proxies = []
     for url in SOURCES:
+        if len(proxies) >= MAX_PROXIES:
+            break
         try:
             text = fetch(url)
             links = parse_links(text)
-            print(f"{url}: {len(links)} links")
-            all_links.extend(links)
         except Exception as e:
             print(f"fetch failed {url}: {e}")
-    seen = set()
-    proxies = []
-    for link in all_links:
-        key = link.split("#")[0]
-        if key in seen:
             continue
-        seen.add(key)
-        node = None
-        if link.startswith("vmess://"):
-            node = parse_vmess(link)
-        elif link.startswith("vless://"):
-            node = parse_vless(link)
-        elif link.startswith("trojan://"):
-            node = parse_trojan(link)
-        elif link.startswith("ss://"):
-            node = parse_ss(link)
-        if node and node.get("server") and node.get("port"):
-            proxies.append(node)
-    proxies = proxies[:500]
+        added = 0
+        for link in links:
+            if added >= PER_SOURCE_CAP or len(proxies) >= MAX_PROXIES:
+                break
+            key = link.split("#")[0]
+            if key in seen:
+                continue
+            seen.add(key)
+            node = parse_node(link)
+            if node and node.get("server") and node.get("port"):
+                proxies.append(node)
+                added += 1
+        print(f"{url}: {len(links)} links, +{added} nodes")
     config = {
         "port": 7890,
         "allow-lan": True,
